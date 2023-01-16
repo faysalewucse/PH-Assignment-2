@@ -186,6 +186,13 @@ nav ul {
   width: 150px;
   height: 150px;
   font-weight: 600;
+  transition: border 0.3s;
+}
+
+.facts-section .facts .fact:hover {
+  border-right: 5px solid #ff900e;
+  border-bottom: 5px solid #ff900e;
+  cursor: pointer;
 }
 
 .facts-section .facts .fact p {
